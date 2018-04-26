@@ -1,0 +1,37 @@
+1	Ellen:	Jill, the desserts are amazing here! You should try their speciality - Death by Chocolate. That's what I always get.
+	Jill:	I think I'll just skip dessert. I'm trying to stick to my diet.
+	Ellen:	Why are you on a diet? You look great!
+	Jill:	Thanks, Ellen, but the truth is I've put on weight this year and my clothes are getting tight. I really don't want to have to buy new clothes just so they fit.
+	Ellen:	Well, I can understand that. Hmm ... I think they have fruit salad here. You could get that.
+	Jill:	I'll pass. I'm actually full from lunch.
+2	Girl:	How was your trip to Cambodia?
+	Boy:	Incredible! It's a beautiful country and the people are so friendly. I had an amazing time.
+	Girl:	How did you manage with the food? I hear that they eat lots of strange foods there, including insects.
+	Boy:	Everyone there eats fried spiders, so I did too.
+	Girl:	You ate spiders? Seriously?
+	Boy:	Yeah, it's a popular snack in Cambodia. Women go around on the street with trays of enormous fried tarantulas.
+	Girl:	What did they taste like?
+	Boy:	They were OK, kind of crunchy.
+3	Man:	Now I'll show you a very easy bean dish. First, you chop an onion and cook it in a third of a cup of water. While the onion is cooking, open up a can of black beans, rinse them and then mash them. Then, add a can of tomato sauce. Next, put in a quarter of a cup of quick-cooking oatmeal, a tablespoon of soya sauce, and a half-tablespoon of mustard. When the onions are cooked, put the bean mixture in the pot and heat it for five minutes. That's it! Serve it with rice or on a bun.
+4	Man:	Did you just put ketchup on your banana?
+	Woman:	Yeah, it's really good. Want to try some?
+	Man:	Out of curiosity I'm going to ... Hey, it's not so bad!
+	Woman:	I know. I like trying different food combinations. Sometimes I eat hot popcorn with milk for breakfast. It's like eating a warm and crunchy cereal. I've also made sandwiches with dark chocolate and parmesan cheese, and I always put salt in my coffee to bring out the flavour.
+	Man:	Well, the popcorn cereal sounds the best to me. Maybe I'll try that tomorrow for breakfast.
+5	Girl:	Hi, Jen. I'm sitting here in my maths lesson, trying to do a ridiculously hard algebra problem. All I can think about is food, food, food! I woke up late today and went dashing out of the door without any breakfast, and now I'm starving! It's 11.15 ... that means it's 35 minutes until lunchtime. As soon as the lesson is over, I'm going to look in my backpack for some extra change. Maybe I'll get a bag of crisps from the vending machine to go with my lunch. I'm soooo hungry!
+6	Woman:	It's getting kind of late. We should start thinking about dinner.
+	Man:	How about that new French restaurant in town?
+	Woman:	I've seen that place - it looks interesting. Why don't we go there?
+	Teen boy:	I'd rather get a burger and fries. It would be cheaper, too. We're always trying to save money, right Mum?
+	Woman:	You know, on second thoughts, we probably shouldn't go out at all. I just remembered that we've got leftovers in the fridge.
+7	Boy:	Dad, this shopping trip is taking way too long! Why do you have to read the packages so carefully?
+	Dad:	My doctor said that I may be allergic to gluten, so I have to make sure to get only gluten-free products.
+	Boy:	Gluten? What's that?
+	Dad:	It's a protein that's in wheat and some other grains.
+	Boy:	So you can't eat bread any more?
+	Dad:	No, I can't eat ordinary wheat bread, but I could make bread from soya flour and rice flour. In fact, I'm going to get some today and try it.
+8	Boy:	Do you want some cake? I made it myself.
+	Girl:	Thanks ... it's delicious! Wow, I'm impressed you baked it. I find baking so hard. Everything I've baked has been a total failure.
+	Boy:	Well, this recipe isn't hard. You just mix the ingredients in the pan and stick it in the oven.
+	Girl:	How can you tell when the cake is done?
+	Boy:	You put a toothpick in the centre. If it comes out clean, the cake is done. Simple. 

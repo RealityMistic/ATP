@@ -1,0 +1,29 @@
+{level: "A1",
+author: "British Council",
+test: {
+		numquestions: 3,
+		questions: [{   qnumber: 1,
+						numanswers: 3,
+						question: "For his main course, Andi choose...",
+						answer1: "a normal cheese burger",
+						answer2: "a double cheese burger ",
+						answer3: "a burger with chips",
+						correctanswer: 2},
+						{qnumber: 2,
+						numanswers: 3,
+						question: "For dessert, Andi chooses...",
+						answer1: "ice-cream",
+						answer2: "chocolate cake",
+						answer3: "banana cake",
+						correctanswer:3},
+						{qnumber: 3,
+						numanswers: 3,
+						question: "To drink, Andi chooses...",
+						answer1: "apple juice",
+						answer2:"fizzy water",
+						answer3:"still water",
+						correctanswer: 1}
+						
+					]
+	}
+}

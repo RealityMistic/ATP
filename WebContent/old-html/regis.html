@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Please fill in the forms and you will be playing soon...</title>
+</head>
+<script type="text/javascript">
+function validar(){
+    /*if(comprobarEdad()&&comprobarPassword()&&comprobarEmail()){
+        return true;
+    }
+    else{
+        return false;
+    }*/
+    var nombre=false; age=false, pwd=false,email=false;
+    if(comprobarNombre()){
+    	name=true;
+    }
+    if(comprobarEdad()){
+        age=true;
+    }
+    if(comprobarPassword()){
+        pwd=true;
+    }
+    if(comprobarEmail()){
+        email=true;
+    }
+    if(name&&age&&pwd&&email){
+        return true;
+    }else{
+        return false;
+    }
+    
+}
+function comprobarNombre(){
+	return true;
+}
+function comprobarEdad(){
+    if(isNaN(document.getElementById("age").value)){
+        document.getElementById("errorAge").style.visibility="visible";
+        return false;
+    }
+    else{
+        document.getElementById("errorAge").style.visibility="hidden";
+        return true;
+    }
+}
+function comprobarPassword(){
+    if(document.getElementById("pwd").value!=document.getElementById("pwd2").value){
+        document.getElementById("errorPwd").style.visibility="visible";
+        return false;
+    }
+    else{
+        document.getElementById("errorPwd").style.visibility="hidden";
+        return true;
+    }
+}
+function comprobarEmail(){
+    var textoEmail=document.getElementById("email").value;
+    if(textoEmail.search("@")==-1 || textoEmail.search(".")==-1){
+        document.getElementById("errorEmail").style.visibility="visible";
+        
+        return false;
+    }
+    else{
+        document.getElementById("errorEmail").style.visibility="hidden";
+        return true;
+    }
+}
+	
+</script>
+<body>
+<form action="ATPController?action=doRegister" method="post" onsubmit="return validar();">
+	Full name: <input type="text" name="name" id="name" onblur="comprobarNombre();"/><span id="errorName" style="visibility: hidden; color: red">Name is required</span>
+	<br/>
+	User name: <input type="text" name="user" id="user"/>
+	<br/>
+	Email: <input type="text" name="email" id="email" onblur="comprobarEmail();"/><span id="errorEmail" style="visibility: hidden;color: red">Not a valid email</span>
+	<br/>
+	<input type="radio" name="gender" value="Male"/>Male
+	<input type="radio" name="gender" value="Female"/>Female
+	<br/>
+	Age: <input type="text" name="age" id="age" onblur="comprobarEdad();"/><span id="errorAge" style="visibility: hidden;color: red">Value is not a number</span><br/>
+	Educational level: <select id="edlevel" name="edlevel">
+	<option value="Primary">Primary</option>
+	<option value="Secondary">Secondary</option>
+	<option value="Vocational">Vocational Education</option>
+	<option value="Degree">University First Degree</option>
+	<option value="Masters">University Masters Degree</option>
+	<option value="PhD">PhD</option>
+	</select><br/>
+    Password: <input type="password" name="password" id="pwd" /><br/>
+    Again your password: <input type="password" name="password2" id="pwd2" onblur="comprobarPassword();"/><span id="errorPwd" style="visibility: hidden;color: red">The two passwords are different!</span><br/>
+    <input type="submit" value="enviar"/>
+    <input type="reset"/>
+</form>
+</body>
+</html>

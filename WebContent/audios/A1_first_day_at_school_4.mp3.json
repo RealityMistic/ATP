@@ -1,0 +1,26 @@
+{level: "A1",
+author: "British Council",
+test: {
+		numquestions: 3,
+		questions: [{   qnumber: 1,
+						numanswers: 2,
+						question: "Jing and Tania are in the same class. ",
+						answer1: "True",
+						answer2: "False",
+						correctanswer: 1},
+						{qnumber: 2,
+						numanswers: 2,
+						question: "Their teacher is a man. ",
+						answer1: "True",
+						answer2: "False",
+						correctanswer:1},
+						{qnumber: 3,
+						numanswers: 2,
+						question: "Jing knows where the classroom is.",
+						answer1: "True",
+						answer2:"False",
+						correctanswer: 2}
+						
+					]
+	}
+}

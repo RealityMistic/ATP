@@ -1,0 +1,53 @@
+1	Boy:	I need more change for the vending machine. Could I borrow 50p?
+	Girl:	Just a second ... here. What are you getting? 
+	Boy:	A Caramel Peanut Crunch. That one right there. 
+	Girl:	Looks good. Can I have a bite when you get it? 
+	Boy:	Sure.
+	Boy:	Hey, nothing's happening! I bet they ran out! I can't get my money back, either!
+	Girl:	Yeah - and what about my money?
+2	Courtney:	What are you doing on Thursday night?
+	Anna:	Nothing. Why?
+	Courtney:	I told my neighbours that I'd babysit for their daughter, but I forgot that I have a dance rehearsal that night. Could you do it?
+	Anna:	I guess so. What do I need to do?
+	Courtney:	I usually play a game with her and then read her a bedtime story. She's already had her dinner, so I just need to make her some tea before she goes to bed.
+	Anna:	How much do they pay?
+	Courtney:	I get £5 an hour. It's really worth it.
+3	Boy:	I'd like to return these jeans. They don't fit.
+	Saleswoman:	Do you have a receipt?
+	Boy:	No. I can't seem to find it.
+	Saleswoman:	I'm afraid to get a full refund, you need to bring a receipt and return the item within 30 days after you buy it. Without a receipt, I can only offer you the lowest price that the item has sold for.
+	Boy:	OK, how much was that?
+	Saleswoman:	Let's see ... $14.49.
+	Boy:	What?? But I paid at least twice that much!
+	Saleswoman:	There must have been a sale after you bought them. I'm sorry - it's the best I can do.
+4	Woman:	I'm balancing work, family, classes at night - I don't have time for shopping.
+	Boy:	Shopping is boring. I'd rather be out playing basketball.
+	Girl:	I don't like shopping because I can't afford to buy half the things I see!
+	Narrator:	Shoppers, help is here! Come to Benny's Superstore - the place for people who don't like shopping! We have everything - do all your shopping in just one stop! You'll get in and out quickly and have time to enjoy your day. Our friendly salespeople will help you find anything you need. And you'll love our amazing low prices. We don't have sales because our prices are already rock bottom. Come to Benny's and feel the difference.
+5	Lucy:	I'm not sure which summer job I should take.
+	Kate:	Well, do they both pay the same?
+	Lucy:	No, the job at the animal clinic doesn't pay a lot and it's only three days a week. On the other hand, the restaurant job is probably better in terms of money because I'll get lots of tips and the manager can give me a lot of hours each week.
+	Kate:	So what are you unsure about? I'd take the job that would pay more.
+	Lucy:	I'm interested in becoming a vet one day so the job at the clinic might help me in the future.
+6	Woman:	Hello, is this Tony Smith?
+	Tony:	Yes, it is.
+	Woman:	Hi, Tony! This is Gretchen Peters calling you from Health for Kids, an organisation that raises money for children with medical problems. These children are desperately in need, and their families can't afford to help them. Right now, we're collecting for medical equipment. Can you help us? Even a small contribution would make a difference. All you have to do is give us your credit card number.
+	Tony:	Um ... it sounds important and I'd like to help, but I don't want to give out any information concerning my credit card. If you send me a donation form, I'll post you a cheque.
+	Woman:	Thank you, that's very kind of you. Let me write down your address and I'll send you a donation form.
+7	Brandon:	It's been great seeing you both, but I have to go home now. Did we get the bill?
+	Morgan:	Yes, here it is.
+	Brandon:	OK, how much do I owe?
+	Morgan:	Let's see ... you had a burger and fries for £8.67 and a cola for a £1.90. That's about £11.00,  plus 15% for the tip.
+	Nicholas:	Does anyone have a calculator?
+	Morgan:	Come on, Nicholas, it's not that hard. We can do the maths. Or we could just divide the bill equally and each pay a third.
+	Nicholas:	But that's not fair! I only had a drink, and you two ordered food.
+	Brandon:	How about if I treat you both? 
+	Morgan:	That's so nice! Are you sure? 
+	Brandon:	It's no big deal.
+8	Olivia:	Ben, could I ask you something?
+	Ben:	Sure, Olivia. What?
+	Olivia:	I've got a problem. I lent Alice some money a week ago, and she hasn't paid me back. What should I do?
+	Ben:	Well, did you try asking her for it?
+	Olivia:	I asked her a couple of times. She always says she doesn't have any cash with her.
+	Ben:	Maybe you should arrange for her to pay you back on a certain day and then ring her the night before so she doesn't forget.
+	Olivia:	I suppose ... but I've got the feeling that she never intended to pay me back in the first place. 

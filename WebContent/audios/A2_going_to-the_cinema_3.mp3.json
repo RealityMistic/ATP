@@ -1,0 +1,38 @@
+{level: "A2",
+author: "British Council",
+test: {
+		numquestions: 3,
+		questions: [{   qnumber: 1,
+						numanswers: 6,
+						question: "Which film are Mario and Tamara going to see?",
+						answer1: "Mr and Mrs Jones",
+						answer2: "War Games",
+						answer3: "Robot 2075",
+                        answer4: "King Robert V",
+						answer5: "Forever",
+						answer6: "Midnight Moon",
+						correctanswer: 6},
+						{qnumber: 2,
+						numanswers: 6,
+						question: "What time does the film they want to see start?",
+						answer1: "12.00 p.m.",
+						answer2: "2.30 p.m.",
+						answer3: "5.20 p.m.",
+                        answer4: "7.00 p.m.",
+						answer5: "7.15 p.m.",
+						answer6: "7.30 p.m.",
+						correctanswer:6},
+						{qnumber: 3,
+						numanswers: 6,
+						question: "What time are Mario and Tamara going to meet?",
+						answer1: "12.00 p.m.",
+						answer2: "2.30 p.m.",
+						answer3: "5.20 p.m.",
+                        answer4: "7.00 p.m.",
+						answer5: "7.15 p.m.",
+						answer6: "7.30 p.m.",
+						correctanswer: 4}
+						
+					]
+	}
+}

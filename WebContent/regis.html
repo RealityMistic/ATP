@@ -1,0 +1,213 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
+        <link href="css/ATP-button.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+<nav>
+<div class='nav-wrapper deep-purple blue accent-1'>
+<a href="http://atlas.uned.es/" class='brand-logo left'>
+
+<img src='images/logos/ATLASlogo-s.png'>
+
+</a>
+<a href="http://www.etsisi.upm.es/" class='brand-logo right'>
+<img src='images/logos/ETSISIlogo.png'>
+</a>
+
+</div>
+</nav>
+<script src='js/jquery-3.1.1.min.js'></script>
+<!-- 
+<script>
+	$(document).ready(function(){
+			$('select').material_select();
+	});
+</script>
+ -->
+ 
+<div class="container">
+                
+<div class="col s6">
+
+<script type="text/javascript">
+
+  
+function validar(){
+    /*if(comprobarEdad()&&comprobarPassword()&&comprobarEmail()){
+        return true;
+    }
+    else{
+        return false;
+    }*/
+    var nombre=false; age=false, pwd=false,email=false;
+    if(comprobarNombre()){
+    	name=true;
+    }
+    if(comprobarEdad()){
+        age=true;
+    }
+    if(comprobarPassword()){
+        pwd=true;
+    }
+    if(comprobarEmail()){
+        email=true;
+    }
+    if(name&&age&&pwd&&email){
+        return true;
+    }else{
+        return false;
+    }
+    
+}
+function comprobarNombre(){
+	return true;
+}
+function comprobarEdad(){
+    if(isNaN(document.getElementById("age").value)){
+        document.getElementById("errorAge").style.visibility="visible";
+        return false;
+    }
+    else{
+        document.getElementById("errorAge").style.visibility="hidden";
+        return true;
+    }
+}
+function comprobarPassword(){
+    if(document.getElementById("pwd").value!=document.getElementById("pwd2").value){
+        document.getElementById("errorPwd").style.visibility="visible";
+        return false;
+    }
+    else{
+        document.getElementById("errorPwd").style.visibility="hidden";
+        return true;
+    }
+}
+function comprobarConsentimiento(){
+    if(document.getElementById("consent").checked = true){
+    	document.getElementById("send").style.visibility="visible";
+        return true;
+    }
+    else{
+        document.getElementById("send").style.display="hidden";
+        return false;
+    }
+}
+function comprobarEmail(){
+    var textoEmail=document.getElementById("email").value;
+    if(textoEmail.search("@")==-1 || textoEmail.search(".")==-1){
+        document.getElementById("errorEmail").style.visibility="visible";
+        
+        return false;
+    }
+    else{
+        document.getElementById("errorEmail").style.visibility="hidden";
+        return true;
+    }
+}
+	
+</script>
+<div class="container">
+<div class="container">
+<h3>Please enter your data:</h3>
+</div>
+<form action="ATPController?action=doRegister" method="post" onsubmit="return validar();">
+<div class='row'>
+<div class="input-field col s4">
+	Full name: <input type="text" name="name" id="name" onblur="comprobarNombre();"/>
+	<span id="errorName" style="visibility: hidden; color: red">Name is required</span>
+</div>
+</div>
+<div class='row'>
+<div class="input-field col s4">
+	User name: <input type="text" name="user" id="user"/>
+</div>
+</div>
+<div class='row'>
+<div class="input-field col s4">
+	Email: <input type="text" name="email" id="email" onblur="comprobarEmail();"/>
+	<span id="errorEmail" style="visibility: hidden;color: red">Not a valid email</span>
+</div>
+</div>
+<div class='row'>
+<div class="input-field col s2">
+<p>
+Choose your gender:
+</p>
+    <p>
+      <input name="gender" type="radio" id="male" value='male'/>
+      <label for="male">Male</label>
+      <input name="gender" type="radio" id="female" value='female'/>
+      <label for="female">Female</label>
+    </p>
+</div>
+
+<div class="input-field col s1">
+	Age: <input type="text" name="age" id="age" onblur="comprobarEdad();"/>
+	<span id="errorAge" style="visibility: hidden;color: red">Value is not a number</span><br/>
+</div>
+</div>
+<div class='row'>
+<div class="input-field col s4">
+<label>Choose your education level</label><br/><br/>
+	<select name='edlevel'>
+	<option id='primary' value="Primary">Primary</option>
+	<option id='secondary' value="Secondary">Secondary</option>
+	<option id='vocational' value="Vocational">Vocational Education</option>
+	<option id='first degree' value="Degree">University First Degree</option>
+	<option id='masters degree' value="Masters">University Masters Degree</option>
+	<option id='phd' value="PhD">PhD</option>
+	</select>
+</div>
+</div>
+<div class='row'>
+<div class="input-field  col s4">
+    Password: <input type="password" name="password" id="pwd" /><br/>
+</div>
+</div>
+<div class='row'>
+<div class="input-field col s4">
+    Again your password: <input type="password" name="password2" id="pwd2" onblur="comprobarPassword();"/>
+    <span id="errorPwd" style="visibility: hidden;color: red">The two passwords are different!</span>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="col s6">
+<div class='row'>
+<p>
+   <input type="checkbox" id="consent" onclick="comprobarConsentimiento();" />
+   <label for="consent">Marcando esta casilla, en cumplimiento de la Ley Orgánica LOPD 15/1999, comunico mi consentimiento para la cesión 
+   y el tratamiento de mis datos personales al fichero "ATP.db" propiedad de Juan José Magaña Redondo, con fines de investigación 
+   académica. Entiendo que podré ejercer mis derechos ARCO por email, escribiendo a magana@ubeda.uned.es
+   </label>
+</p>
+</div> 
+</div>
+</div>
+<div class="container">
+<div class="col s6">
+<div class='row'>
+
+    <button id='send' style="visibility: hidden" class="btn btn-large custom-btn-s light-green accent-4" type="submit" value="enviar">
+    SEND
+    </button>
+    <button class="btn btn-large custom-btn-s blue-grey lighten-2" type="reset">
+    CLEAR
+    </button>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('select').material_select();
+  });
+</script>
+</body>
+</html>
